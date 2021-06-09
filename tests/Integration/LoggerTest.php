@@ -2,8 +2,8 @@
 
 namespace Lumen\Cashier\Tests\Integration;
 
-use Laravel\Cashier\Logger;
-use Laravel\Cashier\Tests\TestCase;
+use Lumen\Cashier\Logger;
+use Lumen\Cashier\Tests\TestCase;
 use Mockery as m;
 use Psr\Log\LoggerInterface as PsrLoggerInterface;
 use Stripe\Stripe;

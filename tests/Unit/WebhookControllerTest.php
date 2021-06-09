@@ -4,10 +4,10 @@ namespace Lumen\Cashier\Tests\Unit;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Event;
-use Laravel\Cashier\Events\WebhookHandled;
-use Laravel\Cashier\Events\WebhookReceived;
-use Laravel\Cashier\Http\Controllers\WebhookController;
-use Laravel\Cashier\Tests\TestCase;
+use Lumen\Cashier\Events\WebhookHandled;
+use Lumen\Cashier\Events\WebhookReceived;
+use Lumen\Cashier\Http\Controllers\WebhookController;
+use Lumen\Cashier\Tests\TestCase;
 use Symfony\Component\HttpFoundation\Response;
 
 class WebhookControllerTest extends TestCase

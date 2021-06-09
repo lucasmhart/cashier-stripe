@@ -4,8 +4,8 @@ namespace Lumen\Cashier\Tests\Integration;
 
 use Illuminate\Support\Facades\Notification;
 use Illuminate\Support\Str;
-use Laravel\Cashier\Exceptions\PaymentActionRequired;
-use Laravel\Cashier\Notifications\ConfirmPayment;
+use Lumen\Cashier\Exceptions\PaymentActionRequired;
+use Lumen\Cashier\Notifications\ConfirmPayment;
 use Stripe\Plan;
 use Stripe\Product;
 

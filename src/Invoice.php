@@ -6,7 +6,7 @@ use Carbon\Carbon;
 use Dompdf\Dompdf;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\View;
-use Laravel\Cashier\Exceptions\InvalidInvoice;
+use Lumen\Cashier\Exceptions\InvalidInvoice;
 use Stripe\Invoice as StripeInvoice;
 use Stripe\InvoiceLineItem as StripeInvoiceLineItem;
 use Symfony\Component\HttpFoundation\Response;
@@ -41,7 +41,7 @@ class Invoice
      * @param  \Stripe\Invoice  $invoice
      * @return void
      *
-     * @throws \Laravel\Cashier\Exceptions\InvalidInvoice
+     * @throws \Lumen\Cashier\Exceptions\InvalidInvoice
      */
     public function __construct($owner, StripeInvoice $invoice)
     {

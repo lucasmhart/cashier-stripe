@@ -2,14 +2,14 @@
 
 namespace Lumen\Cashier\Exceptions;
 
-use Laravel\Cashier\Payment;
+use Lumen\Cashier\Payment;
 
 class PaymentFailure extends IncompletePayment
 {
     /**
      * Create a new PaymentFailure instance.
      *
-     * @param  \Laravel\Cashier\Payment  $payment
+     * @param  \Lumen\Cashier\Payment  $payment
      * @return static
      */
     public static function invalidPaymentMethod(Payment $payment)

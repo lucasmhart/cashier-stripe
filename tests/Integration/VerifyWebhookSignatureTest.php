@@ -4,8 +4,8 @@ namespace Lumen\Cashier\Tests\Feature;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
-use Laravel\Cashier\Http\Middleware\VerifyWebhookSignature;
-use Laravel\Cashier\Tests\TestCase;
+use Lumen\Cashier\Http\Middleware\VerifyWebhookSignature;
+use Lumen\Cashier\Tests\TestCase;
 use Symfony\Component\HttpKernel\Exception\AccessDeniedHttpException;
 
 class VerifyWebhookSignatureTest extends TestCase

@@ -3,8 +3,8 @@
 namespace Lumen\Cashier\Tests\Unit;
 
 use InvalidArgumentException;
-use Laravel\Cashier\Exceptions\SubscriptionUpdateFailure;
-use Laravel\Cashier\Subscription;
+use Lumen\Cashier\Exceptions\SubscriptionUpdateFailure;
+use Lumen\Cashier\Subscription;
 use PHPUnit\Framework\TestCase;
 
 class SubscriptionTest extends TestCase

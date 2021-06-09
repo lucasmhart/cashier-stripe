@@ -3,8 +3,8 @@
 namespace Lumen\Cashier\Http\Controllers;
 
 use Illuminate\Routing\Controller;
-use Laravel\Cashier\Cashier;
-use Laravel\Cashier\Payment;
+use Lumen\Cashier\Cashier;
+use Lumen\Cashier\Payment;
 use Stripe\PaymentIntent as StripePaymentIntent;
 
 class PaymentController extends Controller

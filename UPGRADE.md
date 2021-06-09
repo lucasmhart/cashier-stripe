@@ -53,7 +53,7 @@ PR: https://github.com/laravel/cashier/pull/667
 Any payment action will now throw an exception when a payment either fails or when the payment requires a secondary confirmation action in order to be completed. This applies to single charges, invoicing customers, subscribing to a new plan, or swapping plans. After catching these exceptions, you have several options for how to properly handle them. You can either let Stripe handle everything for you (you may configure this in the Stripe dashboard) or use the new, built-in payment confirmation page that is included with Cashier.
 
 ```php
-use Laravel\Cashier\Exceptions\IncompletePayment;
+use Lumen\Cashier\Exceptions\IncompletePayment;
 
 try {
     $subscription = $user->newSubscription('default', $planId)

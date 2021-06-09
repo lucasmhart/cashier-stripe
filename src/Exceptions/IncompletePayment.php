@@ -3,7 +3,7 @@
 namespace Lumen\Cashier\Exceptions;
 
 use Exception;
-use Laravel\Cashier\Payment;
+use Lumen\Cashier\Payment;
 use Throwable;
 
 class IncompletePayment extends Exception
@@ -11,14 +11,14 @@ class IncompletePayment extends Exception
     /**
      * The Cashier Payment object.
      *
-     * @var \Laravel\Cashier\Payment
+     * @var \Lumen\Cashier\Payment
      */
     public $payment;
 
     /**
      * Create a new IncompletePayment instance.
      *
-     * @param  \Laravel\Cashier\Payment  $payment
+     * @param  \Lumen\Cashier\Payment  $payment
      * @param  string  $message
      * @param  int  $code
      * @param  \Throwable|null  $previous

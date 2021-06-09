@@ -2,9 +2,9 @@
 
 namespace Lumen\Cashier\Tests\Integration;
 
-use Laravel\Cashier\Exceptions\InvalidInvoice;
-use Laravel\Cashier\Exceptions\InvalidStripeCustomer;
-use Laravel\Cashier\Invoice;
+use Lumen\Cashier\Exceptions\InvalidInvoice;
+use Lumen\Cashier\Exceptions\InvalidStripeCustomer;
+use Lumen\Cashier\Invoice;
 use Symfony\Component\HttpKernel\Exception\AccessDeniedHttpException;
 
 class InvoicesTest extends IntegrationTestCase

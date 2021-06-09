@@ -2,7 +2,7 @@
 
 namespace Lumen\Cashier;
 
-use Laravel\Cashier\Exceptions\InvalidPaymentMethod;
+use Lumen\Cashier\Exceptions\InvalidPaymentMethod;
 use Stripe\PaymentMethod as StripePaymentMethod;
 
 class PaymentMethod
@@ -28,7 +28,7 @@ class PaymentMethod
      * @param  \Stripe\PaymentMethod  $paymentMethod
      * @return void
      *
-     * @throws \Laravel\Cashier\Exceptions\InvalidPaymentMethod
+     * @throws \Lumen\Cashier\Exceptions\InvalidPaymentMethod
      */
     public function __construct($owner, StripePaymentMethod $paymentMethod)
     {

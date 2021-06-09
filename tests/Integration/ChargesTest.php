@@ -2,8 +2,8 @@
 
 namespace Lumen\Cashier\Tests\Integration;
 
-use Laravel\Cashier\Exceptions\PaymentActionRequired;
-use Laravel\Cashier\Payment;
+use Lumen\Cashier\Exceptions\PaymentActionRequired;
+use Lumen\Cashier\Payment;
 
 class ChargesTest extends IntegrationTestCase
 {

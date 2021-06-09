@@ -3,8 +3,8 @@
 namespace Lumen\Cashier\Tests\Unit;
 
 use Carbon\Carbon;
-use Laravel\Cashier\Exceptions\InvalidStripeCustomer;
-use Laravel\Cashier\Tests\Fixtures\User;
+use Lumen\Cashier\Exceptions\InvalidStripeCustomer;
+use Lumen\Cashier\Tests\Fixtures\User;
 use PHPUnit\Framework\TestCase;
 
 class CustomerTest extends TestCase

@@ -4,9 +4,9 @@ namespace Lumen\Cashier\Tests\Unit;
 
 use Carbon\Carbon;
 use Carbon\CarbonTimeZone;
-use Laravel\Cashier\Invoice;
-use Laravel\Cashier\Tests\Fixtures\User;
-use Laravel\Cashier\Tests\TestCase;
+use Lumen\Cashier\Invoice;
+use Lumen\Cashier\Tests\Fixtures\User;
+use Lumen\Cashier\Tests\TestCase;
 use Mockery as m;
 use Stripe\Discount;
 use Stripe\Invoice as StripeInvoice;

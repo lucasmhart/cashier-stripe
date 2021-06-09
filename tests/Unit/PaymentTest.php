@@ -2,7 +2,7 @@
 
 namespace Lumen\Cashier\Tests\Unit;
 
-use Laravel\Cashier\Payment;
+use Lumen\Cashier\Payment;
 use PHPUnit\Framework\TestCase;
 use Stripe\PaymentIntent;
 

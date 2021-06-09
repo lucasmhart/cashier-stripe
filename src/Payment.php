@@ -2,8 +2,8 @@
 
 namespace Lumen\Cashier;
 
-use Laravel\Cashier\Exceptions\PaymentActionRequired;
-use Laravel\Cashier\Exceptions\PaymentFailure;
+use Lumen\Cashier\Exceptions\PaymentActionRequired;
+use Lumen\Cashier\Exceptions\PaymentFailure;
 use Stripe\PaymentIntent as StripePaymentIntent;
 
 class Payment
@@ -101,8 +101,8 @@ class Payment
      *
      * @return void
      *
-     * @throws \Laravel\Cashier\Exceptions\PaymentActionRequired
-     * @throws \Laravel\Cashier\Exceptions\PaymentFailure
+     * @throws \Lumen\Cashier\Exceptions\PaymentActionRequired
+     * @throws \Lumen\Cashier\Exceptions\PaymentFailure
      */
     public function validate()
     {

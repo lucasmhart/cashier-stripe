@@ -88,7 +88,7 @@ class CashierServiceProvider extends ServiceProvider
         if (Cashier::$registersRoutes) {
             Route::group([
                 'prefix' => config('cashier.path'),
-                'namespace' => 'Laravel\Cashier\Http\Controllers',
+                'namespace' => 'Lumen\Cashier\Http\Controllers',
                 'as' => 'cashier.',
             ], function () {
                 $this->loadRoutesFrom(__DIR__.'/../routes/web.php');
