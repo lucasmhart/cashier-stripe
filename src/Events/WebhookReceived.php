@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Cashier\Events;
+namespace Lumen\Cashier\Events;
 
 use Illuminate\Foundation\Events\Dispatchable;
 use Illuminate\Queue\SerializesModels;

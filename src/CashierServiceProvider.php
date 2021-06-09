@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Cashier;
+namespace Lumen\Cashier;
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;

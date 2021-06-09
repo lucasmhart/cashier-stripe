@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Cashier\Exceptions;
+namespace Lumen\Cashier\Exceptions;
 
 use Exception;
 

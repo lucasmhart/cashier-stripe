@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Cashier\Tests\Unit;
+namespace Lumen\Cashier\Tests\Unit;
 
 use Carbon\Carbon;
 use Carbon\CarbonTimeZone;

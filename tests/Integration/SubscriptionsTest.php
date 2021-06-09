@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Cashier\Tests\Integration;
+namespace Lumen\Cashier\Tests\Integration;
 
 use Carbon\Carbon;
 use DateTime;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Cashier;
+namespace Lumen\Cashier;
 
 use Carbon\Carbon;
 use Dompdf\Dompdf;

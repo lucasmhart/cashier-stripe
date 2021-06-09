@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Cashier\Tests\Integration;
+namespace Lumen\Cashier\Tests\Integration;
 
 use Illuminate\Database\Eloquent\Model as Eloquent;
 use Laravel\Cashier\Tests\Fixtures\User;

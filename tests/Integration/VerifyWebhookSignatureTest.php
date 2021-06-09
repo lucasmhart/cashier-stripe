@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Cashier\Tests\Feature;
+namespace Lumen\Cashier\Tests\Feature;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;

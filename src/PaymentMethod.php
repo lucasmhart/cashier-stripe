@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Cashier;
+namespace Lumen\Cashier;
 
 use Laravel\Cashier\Exceptions\InvalidPaymentMethod;
 use Stripe\PaymentMethod as StripePaymentMethod;

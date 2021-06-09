@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Cashier\Tests\Integration;
+namespace Lumen\Cashier\Tests\Integration;
 
 use Illuminate\Support\Facades\Notification;
 use Illuminate\Support\Str;

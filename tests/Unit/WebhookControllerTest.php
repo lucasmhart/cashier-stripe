@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Cashier\Tests\Unit;
+namespace Lumen\Cashier\Tests\Unit;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Event;

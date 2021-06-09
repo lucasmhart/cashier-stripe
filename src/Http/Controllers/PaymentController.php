@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Cashier\Http\Controllers;
+namespace Lumen\Cashier\Http\Controllers;
 
 use Illuminate\Routing\Controller;
 use Laravel\Cashier\Cashier;

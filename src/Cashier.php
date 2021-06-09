@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Cashier;
+namespace Lumen\Cashier;
 
 use Money\Currencies\ISOCurrencies;
 use Money\Currency;

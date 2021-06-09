@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Cashier\Notifications;
+namespace Lumen\Cashier\Notifications;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
